@@ -1,3 +1,10 @@
 language: node_js
 node_js:
 - node
+deploy:
+  provider: heroku
+  api_key:
+    secure: k/MrtjYuoX2YLRycwI3ccBfP00wxPapVrnok05oAKUVcQSZZucUfregDmjpJF/d3VO1USLu0lOIrvqcZtt4ZGhabLbV1K8V5RTBeFcFEw9JFiF7ujPl/uM2O9hQJ3fbhEiL/vqvKFUUz9uBK/Rq98MV7W1CW79TxlsS3ovQD7TWRPcgm3aFak0aFOxzeRXoEpzix65YnRZT+PfzrRnrRd4/Ii1+SLw1i1tioEPS9VfUsuZdezwEK0/2dZNllX+zBNxOg0/jVcSRydvfInTN535eNiXM3FUr9PSOhO5jIMcOMkFlwMDXMzoG06LsM4IiEPGtK401wafKoqhDdlLsOgGFV85nmS4vBmjs6iCDkIqXJJpTMiYIsWI4hA/XMVXh9jhhmRL4gXxoCI846nJe/rRMO+7j6vQj2Me89b5nYeltefRfY6OvvArEB3K5ODrI4QOmiKR7wgzWyUvIJ/V/9y/OUoZxCEJhYtE2OjK1DoPzXBCAnBBxWF4f5TFL3kOWxqxLa513Jx5sOG0L1wdf33bptAECLp5erKjUw8pppwZ+Rof+ACZ1E1prVeZZe5SOTiy4lxUcD7bwH5snAWEjU4mRxdO43V+Fa2RfAkncaPgIJ3dGzfiuuR3DIVQGNsN9rr1h0SQ+ufhDV5eYH6YITOYp63NMfuRfQlAvGV0DNeh4=
+  app: morning-temple-91235
+  on:
+    repo: geraldangw/ServeAPI
