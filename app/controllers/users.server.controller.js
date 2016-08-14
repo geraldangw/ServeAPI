@@ -2,29 +2,29 @@ module.exports = {
   index: function(req, res) {
     res.json([
       {
-        name: 'Gerald Ang',
+        name: 'Gerald',
         age: 33,
-        email: 'geraldangw@gmail.com'
+        email: 'mailto:geraldangw@gmail.com'
       },
       {
-        name: 'benyang',
+        name: 'Ben Yang',
         age: 31,
-        email: 'benyang00@gmail.com'
+        email: 'mailto:benyang00@gmail.com'
       },
       {
-        name: 'weiyang',
+        name: 'Weiyang',
         age: 81,
-        email: 'thetaiwanese@gmail.com'
+        email: 'mailto:thetaiwanese@gmail.com'
       },
       {
-        name: 'jen',
+        name: 'Jen',
         age: 12,
-        email: 'jen@gmail.com'
+        email: 'mailto:jen@gmail.com'
       },
       {
-        name: 'chong',
+        name: 'Chong',
         age: 25,
-        email: 'chong@gmail.com'
+        email: 'mailto:chong@gmail.com'
       },
     ]);
   }
